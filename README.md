@@ -8,7 +8,7 @@ url:
 # https://pixel.lichee.bz
 
 dev url:
-# http://peter.lichee.bz
+# http://peter.lichee.bz:1337
 
 # Changelog
 
