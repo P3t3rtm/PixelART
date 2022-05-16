@@ -19,7 +19,24 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': { view: 'pages/homepage' },
+  //'/': { view: 'pages/homepage' },
+
+  '/': {
+    controller: 'main',
+    action: 'index'
+  },
+  '/signup': {
+    controller: 'main',
+    action: 'signup'
+  },
+  '/login': {
+    controller: 'main',
+    action: 'login'
+  },
+  '/chat': {
+    controller: 'main',
+    action: 'chat'
+  }
 
 
   /***************************************************************************
